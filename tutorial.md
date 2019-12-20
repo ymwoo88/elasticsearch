@@ -28,10 +28,27 @@
  - docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.4.2
    
  - curl -XGET localhost:9200
-<pre><code>
-<pre><code>
-
-</code></pre>
+   
+```
+D:\99_git\elasticsearch>curl -XGET localhost:9200
+{
+  "name" : "7ca17c7f4517",
+  "cluster_name" : "docker-cluster",
+  "cluster_uuid" : "oINCkUb8ThejWQJyXB9Bfg",
+  "version" : {
+    "number" : "7.4.2",
+    "build_flavor" : "default",
+    "build_type" : "docker",
+    "build_hash" : "2f90bbf7b93631e52bafb59b3b049cb44ec25e96",
+    "build_date" : "2019-10-28T20:40:44.881551Z",
+    "build_snapshot" : false,
+    "lucene_version" : "8.2.0",
+    "minimum_wire_compatibility_version" : "6.8.0",
+    "minimum_index_compatibility_version" : "6.0.0-beta1"
+  },
+  "tagline" : "You Know, for Search"
+}
+```
  - 아주 간략히 구성하는 것이라 이래 저래 상세하게 한다면 docker-compose를 이용해서 설정 파일은 볼륨을 걸고 docker swarm을 설정하여 replicas를 구성하는 것이 맞다.
    
    
