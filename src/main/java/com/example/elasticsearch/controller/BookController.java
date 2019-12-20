@@ -1,5 +1,7 @@
-package com.example.elasticsearch;
+package com.example.elasticsearch.controller;
 
+import com.example.elasticsearch.service.BookService;
+import com.example.elasticsearch.domain.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

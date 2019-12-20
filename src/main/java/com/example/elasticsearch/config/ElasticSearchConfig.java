@@ -1,4 +1,4 @@
-package com.example.elasticsearch;
+package com.example.elasticsearch.config;
 
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;

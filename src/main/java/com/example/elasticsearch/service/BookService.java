@@ -1,4 +1,6 @@
-package com.example.elasticsearch;
+package com.example.elasticsearch.service;
+
+import com.example.elasticsearch.domain.Book;
 
 import java.util.List;
 import java.util.Optional;

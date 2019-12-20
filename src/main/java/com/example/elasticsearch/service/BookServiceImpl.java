@@ -1,7 +1,8 @@
-package com.example.elasticsearch;
+package com.example.elasticsearch.service;
 
+import com.example.elasticsearch.domain.Book;
+import com.example.elasticsearch.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
