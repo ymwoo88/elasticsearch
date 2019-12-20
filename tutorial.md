@@ -28,7 +28,10 @@
  - docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.4.2
    
  - curl -XGET localhost:9200
-   
+<pre><code>
+<pre><code>
+
+</code></pre>
  - 아주 간략히 구성하는 것이라 이래 저래 상세하게 한다면 docker-compose를 이용해서 설정 파일은 볼륨을 걸고 docker swarm을 설정하여 replicas를 구성하는 것이 맞다.
    
    
