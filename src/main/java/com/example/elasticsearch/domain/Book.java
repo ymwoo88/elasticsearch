@@ -13,7 +13,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(indexName = "mkyong", type = "books")
+@Document(indexName = "ymwoo", type = "book")
 public class Book {
     @Id
     private String id;
