@@ -49,6 +49,8 @@ D:\99_git\elasticsearch>curl -XGET localhost:9200
   "tagline" : "You Know, for Search"
 }
 ```
+ - index리스트 조회  : localhost:9200/_cat/indices?v
+   
  - 아주 간략히 구성하는 것이라 이래 저래 상세하게 한다면 docker-compose를 이용해서 설정 파일은 볼륨을 걸고 docker swarm을 설정하여 replicas를 구성하는 것이 맞다.
    
    
